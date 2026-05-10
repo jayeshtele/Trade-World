@@ -5,8 +5,6 @@ import {
   ClipboardList,
   Gauge,
   Menu,
-  PanelLeftClose,
-  Search,
   Settings,
   Sparkles,
   WalletCards,

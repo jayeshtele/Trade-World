@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import Layout from './components/Layout.jsx';
@@ -22,7 +22,7 @@ const pageTitles = {
 function PageTitle() {
   const location = useLocation();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const title = pageTitles[location.pathname] || 'Trading';
     document.title = `${title} | Trade World`;
   }, [location.pathname]);
