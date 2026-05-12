@@ -68,7 +68,7 @@ function TopStrip() {
   const change = getChange(selectedAsset);
 
   return (
-    <header className="sticky top-0 z-30 border-b border-white/10 bg-[#06070a]/88 backdrop-blur-2xl">
+    <header className="lg:sticky top-0 z-30 border-b border-white/10 bg-[#06070a]/88 backdrop-blur-2xl">
       <div className="flex min-h-20 items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-[0.24em] text-zinc-500">Live demo account</p>
