@@ -14,6 +14,7 @@ const makeHistory = (base, wave = 1) =>
 export const marketAssets = [
   {
     symbol: 'NIFTYBEES',
+    tradingViewSymbol: 'BSE:NIFTYBEES',
     name: 'Nippon India Nifty 50 ETF',
     exchange: 'NSE',
     sector: 'Index ETF',
@@ -28,6 +29,7 @@ export const marketAssets = [
   },
   {
     symbol: 'RELIANCE',
+    tradingViewSymbol: 'BSE:RELIANCE',
     name: 'Reliance Industries',
     exchange: 'NSE',
     sector: 'Energy',
@@ -42,6 +44,7 @@ export const marketAssets = [
   },
   {
     symbol: 'HDFCBANK',
+    tradingViewSymbol: 'BSE:HDFCBANK',
     name: 'HDFC Bank',
     exchange: 'NSE',
     sector: 'Banking',
@@ -56,6 +59,7 @@ export const marketAssets = [
   },
   {
     symbol: 'INFY',
+    tradingViewSymbol: 'BSE:INFY',
     name: 'Infosys',
     exchange: 'NSE',
     sector: 'Technology',
@@ -70,6 +74,7 @@ export const marketAssets = [
   },
   {
     symbol: 'TCS',
+    tradingViewSymbol: 'BSE:TCS',
     name: 'Tata Consultancy Services',
     exchange: 'NSE',
     sector: 'Technology',
@@ -84,6 +89,7 @@ export const marketAssets = [
   },
   {
     symbol: 'ICICIBANK',
+    tradingViewSymbol: 'BSE:ICICIBANK',
     name: 'ICICI Bank',
     exchange: 'NSE',
     sector: 'Banking',
@@ -98,6 +104,7 @@ export const marketAssets = [
   },
   {
     symbol: 'SBIN',
+    tradingViewSymbol: 'BSE:SBIN',
     name: 'State Bank of India',
     exchange: 'NSE',
     sector: 'Banking',
@@ -112,6 +119,7 @@ export const marketAssets = [
   },
   {
     symbol: 'TATAMOTORS',
+    tradingViewSymbol: 'BSE:TATAMOTORS',
     name: 'Tata Motors',
     exchange: 'NSE',
     sector: 'Auto',
@@ -126,6 +134,7 @@ export const marketAssets = [
   },
   {
     symbol: 'BAJFINANCE',
+    tradingViewSymbol: 'BSE:BAJFINANCE',
     name: 'Bajaj Finance',
     exchange: 'NSE',
     sector: 'Financials',
@@ -140,6 +149,7 @@ export const marketAssets = [
   },
   {
     symbol: 'GOLDIETF',
+    tradingViewSymbol: 'BSE:GOLDBEES',
     name: 'Gold Benchmark ETF',
     exchange: 'NSE',
     sector: 'Commodity ETF',
@@ -154,6 +164,7 @@ export const marketAssets = [
   },
   {
     symbol: 'LT',
+    tradingViewSymbol: 'BSE:LT',
     name: 'Larsen & Toubro',
     exchange: 'NSE',
     sector: 'Infrastructure',
@@ -168,6 +179,7 @@ export const marketAssets = [
   },
   {
     symbol: 'SUNPHARMA',
+    tradingViewSymbol: 'BSE:SUNPHARMA',
     name: 'Sun Pharmaceutical',
     exchange: 'NSE',
     sector: 'Healthcare',
